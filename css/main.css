@@ -30,6 +30,13 @@ body {
   font-size: 18px;
 }
 
+#header #nav {
+  display: inline-block;
+  padding: 0;
+  list-style-type: none;
+  margin: 24px auto;
+}
+
 @media (max-width: 765px) {
     #header #name {
       position: relative;
@@ -37,13 +44,9 @@ body {
       display: block;
       margin: 15px auto 0 auto;
     }
-}
-
-#header #nav {
-  display: inline-block;
-  padding-top: 23px;
-  list-style-type: none;
-  margin: auto;
+    #header #nav {
+      margin: 15px auto;
+    }
 }
 
 #header li {
