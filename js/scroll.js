@@ -20,4 +20,12 @@ $(document).ready(function () {
     return false;
   });
 
+  // make fixed background display on iOS
+  var userAgent = window.navigator.userAgent;
+
+  if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+     // iPad or iPhone
+     $("#background").css({"display": "inital"});
+  }
+
 });
