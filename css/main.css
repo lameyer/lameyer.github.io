@@ -160,6 +160,9 @@ footer p {
       float: none;
       padding: 0 10% 0 10%;
     }
+    #about ul {
+      padding: 0 8% 0 8%;
+    }
     h1 {
       text-align: center;
     }
