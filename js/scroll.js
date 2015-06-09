@@ -16,7 +16,7 @@ $(document).ready(function () {
   // animate scroll to anchor from nav bar
   $("header a").click(function() {
     var anchor = $(this).attr("href")
-    $('html,body').animate({scrollTop: $(anchor).offset().top},'slow');
+    $('html,body').animate({scrollTop: $(anchor).offset().top - 66},'slow');
     return false;
   });
 
