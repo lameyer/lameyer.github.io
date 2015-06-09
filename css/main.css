@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   margin: 0;
 }
 
@@ -79,6 +80,7 @@ a:active {
   height: 1000px;
   clear: left;
   padding: 75px 5% 75px 5%;
+  font-weight: 300;
 }
 
 #about img {
@@ -86,6 +88,19 @@ a:active {
   height: 350px;
   width: 350px;
   float: left;
+  display: inline;
+  margin-right: 75px
+}
+
+#about .content {
+  float: left;
+  display: inline;
+}
+
+#about .content h1 {
+  text-transform: uppercase;
+  margin-top: 0;
+  font-weight: inherit;
 }
 
 @media (max-width: 800px) {
@@ -106,6 +121,13 @@ a:active {
       float: none;
       margin-left: auto;
       margin-right: auto;
+    }
+    #about .content {
+      display: block;
+      margin: auto;
+    }
+    #about .content h1 {
+      text-align: center;
     }
 }
 
