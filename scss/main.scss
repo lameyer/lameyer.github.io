@@ -24,9 +24,15 @@ body {
   display: none;
 }
 
-.projects {
+.projects-image {
   height: 450px;
   background-image: url(../img/glencoe.jpg);
+  background-position: bottom;
+}
+
+.skills-image {
+  height: 450px;
+  background-image: url(../img/beach.jpg);
   background-position: bottom;
 }
 
@@ -89,12 +95,12 @@ a:active {
 .section {
   max-width: 100%;
   clear: left;
-  padding: 75px 12% 75px 12%;
+  padding: 60px 12% 60px 12%;
   font-weight: 300;
 }
 
 #about {
-  height: 370px;
+  min-height: 370px;
 }
 
 #about img {
@@ -132,6 +138,10 @@ h1.top {
 }
 
 #projects {
+  padding-top: 50px;
+}
+
+#skills {
   height: 1000px;
 }
 
