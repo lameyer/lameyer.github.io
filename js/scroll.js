@@ -25,7 +25,7 @@ $(document).ready(function () {
 
   if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
      // iPad or iPhone
-     $("#background").css({"display": "inital"});
+     $("#background").css({"display": "initial"});
   }
 
 });
