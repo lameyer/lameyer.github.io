@@ -153,7 +153,7 @@ footer p {
 /*mobile support*/
 
 @media (max-width: 955px) {
-    #background-image {
+    .background-image {
       position: fixed;
     }
     header #name {
