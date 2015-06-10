@@ -1,0 +1,121 @@
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+     -moz-transform: $transform;
+       -o-transform: $transform;
+      -ms-transform: $transform;
+          transform: $transform;
+}
+
+@mixin transition($transitions) {
+  -webkit-transition: $transitions;
+     -moz-transition: $transitions;
+       -o-transition: $transitions;
+      -ms-transition: $transitions;
+          transition: $transitions;
+}
+
+.hexes {
+    margin: 30px auto auto auto;
+    max-width: 900px;
+    padding: 0;
+    list-style: none;
+}
+
+.hex {
+    width: 200px;
+    height: 230px;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: -48px;
+    display: inline-block;
+}
+
+.hex-left {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: -85px;
+}
+
+.hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    cursor: pointer;
+
+    @include transform(rotate(120deg));
+}
+
+.hex-right {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    @include transform(rotate(120deg));
+}
+
+.hex-vert {
+    -webkit-box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.48);
+    box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.48);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    -webkit-background-size: 125%;
+    -moz-background-size: 125%;
+    background-size: 125%;
+    visibility: visible;
+
+    @include transform(rotate(120deg));
+    @include transition(all 0.5s ease);
+}
+
+// deal with indenting second line of hexes
+
+.hex:nth-child(7n-2) {
+    margin-left: 119px;
+}
+
+@media (max-width: 1165px) {
+    .hex:nth-child(7n-2) {
+        margin-left: 10px;
+    }
+    .hex:nth-child(5n-1) {
+        margin-left: 119px;
+    }
+    .hexes {
+        width: 760px;
+    }
+}
+
+@media (max-width: 862px) {
+    .hex:nth-child(7n-2) {
+        margin-left: 10px;
+    }
+    .hex:nth-child(5n-1) {
+        margin-left: 10px;
+    }
+    .hex:nth-child(3n) {
+        margin-left: 119px;
+    }
+    .hexes {
+        width: 470px;
+    }
+}
+
+@media (max-width: 574px) {
+    .hex:nth-child(7n-2) {
+        margin-left: 10px;
+    }
+    .hex:nth-child(5n-1) {
+        margin-left: 10px;
+    }
+    .hex:nth-child(3n) {
+        margin-left: 10px;
+    }
+    .hex:nth-child(even) {
+        margin-left: 119px;
+    }
+}
