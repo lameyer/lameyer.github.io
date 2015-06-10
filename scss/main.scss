@@ -127,6 +127,10 @@ h1.top {
 
     p {
       line-height: 135%;
+
+      a:hover {
+        color: #710082;
+      }
     }
 
     ul {
@@ -160,14 +164,20 @@ h1.top {
           color: #2E8B57;
         }
 
-        .icon-looker {
-          font-size: 45px;
-          border-radius: 5px;
-
-          &:hover {
-            color: #710082;
-          }
+        .fa-envelope-o:hover {
+          color: #dd4b39;
         }
+
+        // Not sure about Looker icon
+        // .icon-looker {
+        //   font-size: 45px;
+        //   border-radius: 5px;
+
+        //   &:hover {
+        //     color: #710082;
+        //   }
+        // }
+
       }
     }
   }
@@ -224,7 +234,7 @@ footer p {
     }
 
     #nav {
-        margin: 15px auto;
+      margin: 15px auto;
     }
   }
   #about {

@@ -101,6 +101,8 @@ h1.top {
     padding-top: 10px; }
     #about .content p {
       line-height: 135%; }
+      #about .content p a:hover {
+        color: #710082; }
     #about .content ul {
       padding-left: 15px; }
     #about .content .accounts {
@@ -122,11 +124,8 @@ h1.top {
           color: #0077b5; }
         #about .content .accounts li .fa-wordpress:hover {
           color: #2E8B57; }
-        #about .content .accounts li .icon-looker {
-          font-size: 45px;
-          border-radius: 5px; }
-          #about .content .accounts li .icon-looker:hover {
-            color: #710082; }
+        #about .content .accounts li .fa-envelope-o:hover {
+          color: #dd4b39; }
 
 #projects {
   padding-top: 50px; }
