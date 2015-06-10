@@ -145,47 +145,44 @@ footer p {
 }
 
 @media (max-width: 1085px) {
-    #about .content {
-      max-width: 300px;
-    }
+  #about .content {
+    max-width: 300px;
+  }
 }
 
 /*mobile support*/
 
 @media (max-width: 955px) {
-    .background-image {
-      position: fixed;
-    }
-    header #name {
-      position: relative;
-      left: auto;
-      display: block;
-      margin: 15px auto 0 auto;
-    }
-    header #nav {
-      margin: 15px auto;
-    }
-    #about {
-      padding: 75px 0 75px 0;
-      height: 725px;
-    }
-    #about img {
-      display: block;
-      float: none;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    #about .content {
-      float: none;
-      padding: 0 10% 0 10%;
-      margin: auto;
-      max-width: 600px;
-    }
-    #about ul {
-      padding: 0 8% 0 8%;
-    }
-    h1 {
-      text-align: center;
+  header #name {
+    position: relative;
+    left: auto;
+    display: block;
+    margin: 15px auto 0 auto;
+  }
+  header #nav {
+    margin: 15px auto;
+  }
+  #about {
+    padding: 75px 0 75px 0;
+    height: 725px;
+  }
+  #about img {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #about .content {
+    float: none;
+    padding: 0 10% 0 10%;
+    margin: auto;
+    max-width: 600px;
+  }
+  #about ul {
+    padding: 0 8% 0 8%;
+  }
+  h1 {
+    text-align: center;
     }
 }
 
