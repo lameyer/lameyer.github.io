@@ -58,13 +58,22 @@
   background: lightblue;
   opacity: .5; }
 
-.hex p {
-  margin-top: 175px;
-  text-align: center;
-  font-weight: 400;
-  color: white;
-  font-style: bold;
-  font-size: 28px; }
+.text-shape {
+  height: 115px;
+  width: 200px;
+  margin-top: 140px;
+  position: absolute;
+  line-height: 115px;
+  text-align: center; }
+  .text-shape span {
+    font-weight: 400;
+    color: white;
+    font-style: bold;
+    font-size: 28px;
+    text-shadow: 2px 2px black;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal; }
 
 .hex:nth-child(7n-2) {
   margin-left: 117px; }

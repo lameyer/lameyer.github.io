@@ -65,13 +65,26 @@
     opacity: .5;
 }
 
-.hex p {
-    margin-top: 175px;
+.text-shape {
+    height: 115px;
+    width: 200px;
+    margin-top: 140px;
+    // working on this polygon method
+    // -webkit-shape-inside: polygon(0px 57.5px, 100px 0px, 200px 57.5px, 200px 172.5px, 100px 230px, 0px 172.5px);
+    position: absolute;
+    line-height: 115px;
     text-align: center;
-    font-weight: 400;
-    color: white;
-    font-style: bold;
-    font-size: 28px;
+
+    span {
+        font-weight: 400;
+        color: white;
+        font-style: bold;
+        font-size: 28px;
+        text-shadow: 2px 2px black;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
 }
 
 // deal with indenting second line of hexes
