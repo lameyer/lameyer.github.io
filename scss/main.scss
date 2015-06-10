@@ -141,7 +141,7 @@ footer p {
   text-align: center;
 }
 
-/*jank way to get About text to wrap as screen gets smaller*/
+// jank way to get About text to wrap as screen gets smaller
 
 @media (max-width: 1350px) {
     #about .content {
@@ -161,7 +161,7 @@ footer p {
   }
 }
 
-/*mobile support*/
+// mobile support
 
 @media (max-width: 955px) {
   header #name {
