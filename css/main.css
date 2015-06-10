@@ -104,6 +104,7 @@ a:active {
   float: left;
   min-width: 5px;
   max-width: 600px;
+  padding-top: 10px;
 }
 
 h1 {
@@ -135,7 +136,29 @@ footer p {
   text-align: center;
 }
 
-@media (max-width: 800px) {
+/*jank way to get About text to wrap as screen gets smaller*/
+
+@media (max-width: 1350px) {
+    #about .content {
+      max-width: 500px;
+    }
+}
+
+@media (max-width: 1220px) {
+    #about .content {
+      max-width: 400px;
+    }
+}
+
+@media (max-width: 1085px) {
+    #about .content {
+      max-width: 300px;
+    }
+}
+
+/*mobile support*/
+
+@media (max-width: 955px) {
     header #name {
       position: relative;
       left: auto;
@@ -158,6 +181,8 @@ footer p {
     #about .content {
       float: none;
       padding: 0 10% 0 10%;
+      margin: auto;
+      max-width: 600px;
     }
     #about ul {
       padding: 0 8% 0 8%;
