@@ -55,14 +55,23 @@
     @include transform(rotate(120deg));
 }
 
+.hex-vert:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
 .empty {
     background: lightblue;
     opacity: .5;
 }
 
-.hex-vert:hover {
-    cursor: pointer;
-    opacity: 1;
+.hex p {
+    margin-top: 175px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    font-style: bold;
+    font-size: 28px;
 }
 
 // deal with indenting second line of hexes
