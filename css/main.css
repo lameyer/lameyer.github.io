@@ -99,34 +99,34 @@ h1.top {
     min-width: 5px;
     max-width: 600px;
     padding-top: 10px; }
-  #about p {
-    line-height: 135%; }
-  #about ul {
-    padding-left: 15px; }
-  #about .accounts {
-    display: block;
-    width: 100%;
-    clear: both;
-    text-align: left;
-    list-style: none;
-    padding: 0;
-    font-size: 50px;
-    margin: 55px 0 65px 0; }
-    #about .accounts li {
-      display: inline-block;
-      margin-right: 60px;
-      text-align: center; }
-      #about .accounts li .fa-github-alt:hover {
-        color: #E9967A; }
-      #about .accounts li .fa-linkedin:hover {
-        color: #0077b5; }
-      #about .accounts li .fa-wordpress:hover {
-        color: #2E8B57; }
-      #about .accounts li .icon-looker {
-        font-size: 45px;
-        border-radius: 5px; }
-        #about .accounts li .icon-looker:hover {
-          color: #710082; }
+    #about .content p {
+      line-height: 135%; }
+    #about .content ul {
+      padding-left: 15px; }
+    #about .content .accounts {
+      display: block;
+      width: 100%;
+      clear: both;
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      font-size: 50px;
+      margin: 55px 0 65px 0; }
+      #about .content .accounts li {
+        display: inline-block;
+        margin-right: 10%;
+        text-align: center; }
+        #about .content .accounts li .fa-github-alt:hover {
+          color: #E9967A; }
+        #about .content .accounts li .fa-linkedin:hover {
+          color: #0077b5; }
+        #about .content .accounts li .fa-wordpress:hover {
+          color: #2E8B57; }
+        #about .content .accounts li .icon-looker {
+          font-size: 45px;
+          border-radius: 5px; }
+          #about .content .accounts li .icon-looker:hover {
+            color: #710082; }
 
 #projects {
   padding-top: 50px; }
@@ -147,35 +147,41 @@ footer p {
     max-width: 400px; } }
 @media (max-width: 1085px) {
   #about .content {
-    max-width: 300px; } }
+    max-width: 300px; }
+    #about .content .accounts li {
+      margin-right: 5%; } }
 @media (max-width: 955px) {
   header #name {
     position: relative;
     left: auto;
     display: block;
     margin: 15px auto 0 auto; }
-
   header #nav {
     margin: 15px auto; }
 
   #about {
     padding: 75px 0 75px 0;
     height: 725px; }
+    #about img {
+      display: block;
+      float: none;
+      margin-left: auto;
+      margin-right: auto; }
 
-  #about img {
-    display: block;
-    float: none;
-    margin-left: auto;
-    margin-right: auto; }
-
-  #about .content {
-    float: none;
-    padding: 0 10% 0 10%;
-    margin: auto;
-    max-width: 600px; }
-
-  #about ul {
-    padding: 0 8% 0 8%; }
+  #about {
+    height: 780px; }
+    #about .content {
+      float: none;
+      padding: 0 10% 0 10%;
+      margin: auto;
+      max-width: 600px; }
+      #about .content .fa-ul {
+        padding: 0 8% 0 8%; }
+      #about .content .accounts {
+        text-align: center;
+        margin-top: 10%; }
+        #about .content .accounts li {
+          margin-right: 5%; }
 
   h1 {
     text-align: center; } }
