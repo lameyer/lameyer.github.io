@@ -67,8 +67,9 @@
 
 .text-shape {
     height: 115px;
-    width: 200px;
-    margin-top: 140px;
+    width: 180px;
+    padding: 0 10px 0 10px;
+    margin-top: 143px;
     // working on this polygon method
     // -webkit-shape-inside: polygon(0px 57.5px, 100px 0px, 200px 57.5px, 200px 172.5px, 100px 230px, 0px 172.5px);
     position: absolute;

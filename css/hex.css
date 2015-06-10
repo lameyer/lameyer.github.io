@@ -60,8 +60,9 @@
 
 .text-shape {
   height: 115px;
-  width: 200px;
-  margin-top: 140px;
+  width: 180px;
+  padding: 0 10px 0 10px;
+  margin-top: 143px;
   position: absolute;
   line-height: 115px;
   text-align: center; }
