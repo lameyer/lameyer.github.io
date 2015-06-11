@@ -43,7 +43,7 @@
   background-position: 50%;
   visibility: visible;
   background-size: auto 230px;
-  opacity: .7;
+  opacity: .8;
   -webkit-transform: rotate(120deg);
   -moz-transform: rotate(120deg);
   -o-transform: rotate(120deg);
@@ -55,9 +55,9 @@
 
 .empty {
   background: #ADD8E6;
-  opacity: .5; }
+  opacity: .4; }
   .empty:hover {
-    opacity: .5; }
+    opacity: .4; }
 
 .text-shape {
   height: 115px;
