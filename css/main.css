@@ -164,11 +164,11 @@ h1.top {
   padding-bottom: 30px; }
   #work .company {
     max-width: 960px;
-    padding-bottom: 80px;
+    padding-bottom: 65px;
     padding-top: 10px; }
     #work .company img {
       float: left;
-      margin: auto 50px 80px 75px; }
+      margin: auto 50px 60px 75px; }
     #work .company h2 {
       font-family: 'Homemade Apple', cursive;
       text-transform: lowercase;
@@ -180,7 +180,7 @@ h1.top {
       padding-left: 15px;
       padding-right: 15px;
       height: 35px;
-      background-color: #C8C8C8;
+      background-color: #E8E8E8;
       text-align: center;
       line-height: 37px;
       border-radius: 10px; }
