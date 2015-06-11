@@ -50,7 +50,7 @@
     background-position: 50%;
     visibility: visible;
     background-size: auto 230px;
-    opacity: .8;
+    opacity: .7;
 
     @include transform(rotate(120deg));
 }
@@ -61,10 +61,10 @@
 
 .empty {
     background: #ADD8E6;
-    opacity: .4;
+    opacity: .3;
 
     &:hover {
-        opacity: .4;
+        opacity: .3;
     }
 }
 
@@ -85,17 +85,22 @@
     }
 
     span {
-        color: inherit;
-        font-size: 24px;
-        font-weight: inherit;
+        color: black;
+        font-size: 26px;
+        font-weight: 400;
         text-transform: lowercase;
         display: inline-block;
         vertical-align: middle;
         line-height: normal;
+        text-shadow: 1px 1px white;
 
         .description {
-            font-size: 16px;
+            font-size: 18px;
             margin-top: 16px;
+            background-color: rgba(256, 256, 256, .7);
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
     }
 }
