@@ -4,23 +4,16 @@ body {
   font-weight: 300;
   margin: 0; }
 
+#home {
+  height: 500px;
+  background-position: top; }
+
 .background-image {
   width: 100%;
-  height: 500px;
+  height: 300px;
   float: left;
-  background: url(../img/loch-ness.jpg) no-repeat center bottom fixed;
-  background-repeat: no-repeat;
+  background: no-repeat center center fixed;
   background-size: cover; }
-
-.projects-image {
-  height: 400px;
-  background-image: url(../img/moss.jpg);
-  background-position: center; }
-
-.skills-image {
-  height: 400px;
-  background-image: url(../img/stone-wall.jpg);
-  background-position: center; }
 
 #background {
   position: fixed;
@@ -84,8 +77,7 @@ h1.top {
 .section {
   max-width: 100%;
   clear: left;
-  padding: 60px 12% 60px 12%;
-  font-weight: 300; }
+  padding: 60px 12% 60px 12%; }
 
 #about {
   min-height: 370px; }
@@ -131,45 +123,93 @@ h1.top {
 #projects {
   padding-top: 50px; }
 
-#skills .skill-list {
-  list-style: none;
-  max-width: 60em;
-  margin: 40px 0 0 0;
-  border-radius: 125px;
-  font-size: 18px;
-  padding: 0;
-  display: block;
-  text-align: center;
-  text-transform: lowercase; }
-  #skills .skill-list li {
-    display: inline-block;
-    width: 10em;
-    height: 4em;
-    line-height: 4em;
-    border-radius: 1em;
-    margin-bottom: 18px;
-    background-color: rgba(173, 216, 230, 0.5);
-    text-align: center; }
-    #skills .skill-list li .description {
-      display: none;
-      vertical-align: middle;
-      line-height: normal;
-      margin: 0 20px 0 20px; }
-    #skills .skill-list li:hover {
-      cursor: pointer;
-      background-color: lightblue; }
-      #skills .skill-list li:hover .description {
-        display: inline-block;
-        font-size: 14px; }
-      #skills .skill-list li:hover .skill {
-        display: none; }
-  #skills .skill-list .long {
-    width: 20em; }
+#skills {
+  margin-bottom: 30px; }
+  #skills .skill-list {
+    list-style: none;
+    max-width: 60em;
+    margin: 40px 0 0 0;
+    border-radius: 125px;
+    font-size: 18px;
+    padding: 0;
+    display: block;
+    text-align: center;
+    text-transform: lowercase; }
+    #skills .skill-list li {
+      display: inline-block;
+      width: 10em;
+      height: 4em;
+      line-height: 4em;
+      border-radius: 1em;
+      margin-bottom: 18px;
+      background-color: rgba(173, 216, 230, 0.5);
+      text-align: center; }
+      #skills .skill-list li .description {
+        display: none;
+        vertical-align: middle;
+        line-height: normal;
+        margin: 0 20px 0 20px; }
+      #skills .skill-list li:hover {
+        cursor: pointer;
+        background-color: lightblue; }
+        #skills .skill-list li:hover .description {
+          display: inline-block;
+          font-size: 14px; }
+        #skills .skill-list li:hover .skill {
+          display: none; }
+    #skills .skill-list .long {
+      width: 20em; }
 
-footer p {
-  font-size: 10px;
-  color: gray;
-  text-align: center; }
+#work {
+  padding-bottom: 30px; }
+  #work .company {
+    max-width: 960px;
+    padding-bottom: 80px;
+    padding-top: 10px; }
+    #work .company img {
+      float: left;
+      margin: auto 50px 10px 75px; }
+    #work .company h2 {
+      font-family: 'Homemade Apple', cursive;
+      text-transform: lowercase;
+      margin-top: 0;
+      font-size: 22px; }
+    #work .company a {
+      display: inline-block;
+      margin-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      height: 35px;
+      background-color: #C8C8C8;
+      text-align: center;
+      line-height: 37px;
+      border-radius: 10px; }
+      #work .company a .fa-arrow-circle-o-right {
+        margin-left: 5px; }
+      #work .company a:hover {
+        cursor: pointer;
+        color: inherit; }
+    #work .company #looker:hover {
+      background-color: #c9a7ce; }
+    #work .company #pomona:hover {
+      background-color: #92bbdb; }
+
+footer {
+  height: 50px;
+  text-transform: lowercase;
+  clear: left; }
+  footer ul {
+    list-style: none;
+    margin: auto;
+    text-align: center; }
+    footer ul li {
+      font-size: 14px;
+      color: gray;
+      display: inline-block;
+      margin: 0 20px 0 20px;
+      line-height: 50px; }
+      footer ul li .fa-github-alt {
+        margin-right: 8px; }
 
 @media (max-width: 1350px) {
   #about .content {
