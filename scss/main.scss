@@ -241,7 +241,7 @@ h1.top {
 
     img {
       float: left;
-      margin: auto 50px 10px 75px;
+      margin: auto 50px 80px 75px;
     }
 
     h2 {
@@ -291,12 +291,13 @@ footer {
     list-style: none;
     margin: auto;
     text-align: center;
+    padding: 0;
 
     li {
       font-size: 14px;
       color: gray;
       display: inline-block;
-      margin: 0 20px 0 20px;
+      margin: 0 3% 0 3%;
       line-height: 50px;
 
       .fa-github-alt {
@@ -386,7 +387,28 @@ footer {
 
   h1 {
     text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  #work {
+    padding-bottom: 80px;
+
+    .company {
+    padding-bottom: 20px;
+
+      img {
+        width: 100px;
+        display: block;
+        float: none;
+        margin: auto auto 30px auto;
+      }
+
+      h2 {
+        text-align: center;
+      }
     }
+  }
 }
 
 

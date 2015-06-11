@@ -168,7 +168,7 @@ h1.top {
     padding-top: 10px; }
     #work .company img {
       float: left;
-      margin: auto 50px 10px 75px; }
+      margin: auto 50px 80px 75px; }
     #work .company h2 {
       font-family: 'Homemade Apple', cursive;
       text-transform: lowercase;
@@ -201,12 +201,13 @@ footer {
   footer ul {
     list-style: none;
     margin: auto;
-    text-align: center; }
+    text-align: center;
+    padding: 0; }
     footer ul li {
       font-size: 14px;
       color: gray;
       display: inline-block;
-      margin: 0 20px 0 20px;
+      margin: 0 3% 0 3%;
       line-height: 50px; }
       footer ul li .fa-github-alt {
         margin-right: 8px; }
@@ -259,5 +260,17 @@ footer {
 
   h1 {
     text-align: center; } }
+@media (max-width: 750px) {
+  #work {
+    padding-bottom: 80px; }
+    #work .company {
+      padding-bottom: 20px; }
+      #work .company img {
+        width: 100px;
+        display: block;
+        float: none;
+        margin: auto auto 30px auto; }
+      #work .company h2 {
+        text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
