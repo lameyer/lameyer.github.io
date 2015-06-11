@@ -43,7 +43,7 @@
   background-position: 50%;
   visibility: visible;
   background-size: auto 230px;
-  opacity: .7;
+  opacity: .8;
   -webkit-transform: rotate(120deg);
   -moz-transform: rotate(120deg);
   -o-transform: rotate(120deg);
@@ -55,9 +55,9 @@
 
 .empty {
   background: #ADD8E6;
-  opacity: .3; }
+  opacity: .4; }
   .empty:hover {
-    opacity: .3; }
+    opacity: .4; }
 
 .text-shape {
   height: 115px;
@@ -71,21 +71,19 @@
     color: inherit;
     cursor: pointer; }
   .text-shape span {
-    color: black;
-    font-size: 26px;
-    font-weight: 400;
+    color: inherit;
+    font-size: 24px;
+    font-weight: inherit;
     text-transform: lowercase;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    text-shadow: 1px 1px white; }
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px; }
     .text-shape span .description {
-      font-size: 18px;
-      margin-top: 16px;
-      background-color: rgba(255, 255, 255, 0.7);
-      border-radius: 10px;
-      padding-top: 5px;
-      padding-bottom: 5px; }
+      font-size: 16px;
+      margin-top: 16px; }
 
 .hex:nth-child(7n-2) {
   margin-left: 117px; }
