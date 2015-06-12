@@ -94,6 +94,10 @@ h1.top {
   margin-top: 0;
 }
 
+p {
+  line-height: 135%;
+}
+
 .section {
   max-width: 100%;
   clear: left;
@@ -117,12 +121,8 @@ h1.top {
     max-width: 600px;
     padding-top: 10px;
 
-    p {
-      line-height: 135%;
-
-      a:hover {
-        color: #710082;
-      }
+    a:hover {
+      color: #710082;
     }
 
     ul {
