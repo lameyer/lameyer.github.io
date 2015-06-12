@@ -74,6 +74,9 @@ h1 {
 h1.top {
   margin-top: 0; }
 
+p {
+  line-height: 135%; }
+
 .section {
   max-width: 100%;
   clear: left;
@@ -92,10 +95,8 @@ h1.top {
     min-width: 5px;
     max-width: 600px;
     padding-top: 10px; }
-    #about .content p {
-      line-height: 135%; }
-      #about .content p a:hover {
-        color: #710082; }
+    #about .content a:hover {
+      color: #710082; }
     #about .content ul {
       padding-left: 15px; }
     #about .content .accounts {
