@@ -30,7 +30,7 @@ $(document).ready(function () {
   $(window).scroll($.throttle(500,function () {
     for (var i = 0; i < classes.length; i++) {
       if (!bgDivs[i].hasClass(classes[i]) &&
-        ($(window).scrollTop() + $(window).height()) > (bgDivs[i].offset().top - 100)) {
+        ($(window).scrollTop() + $(window).height()) > (bgDivs[i].offset().top - $(window).height()*.75)) {
         bgDivs[i].addClass(classes[i]);
       }
     }
