@@ -20,6 +20,22 @@ $(document).ready(function () {
     return false;
   });
 
+  // only load images when visible
+  var classes = ["moss", "stone-wall", "eilean-donan", "sheep"];
+  var bgDivs = [];
+  for (var i = 0; i < classes.length; i++) {
+    bgDivs.push($("#back"+i));
+  }
+
+  $(window).scroll($.throttle(500,function () {
+    for (var i = 0; i < classes.length; i++) {
+      if (!bgDivs[i].hasClass(classes[i]) &&
+        ($(window).scrollTop() + $(window).height()) > (bgDivs[i].offset().top - 100)) {
+        bgDivs[i].addClass(classes[i]);
+      }
+    }
+  }));
+
   // make fixed background display on iOS
   var userAgent = window.navigator.userAgent;
 

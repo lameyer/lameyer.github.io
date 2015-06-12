@@ -16,6 +16,19 @@ body {
   background: no-repeat center center fixed;
   background-size: cover; }
 
+.moss {
+  background-image: url(../img/moss.jpg); }
+
+.stone-wall {
+  background-image: url(../img/stone-wall.jpg); }
+
+.eilean-donan {
+  background-image: url(../img/eilean-donan.jpg); }
+
+.sheep {
+  background-image: url(../img/sheep.jpg);
+  background-position: bottom; }
+
 #background {
   position: fixed;
   top: 0;
