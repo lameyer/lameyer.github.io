@@ -59,7 +59,7 @@
     opacity: 1;
 }
 
-.empty {
+.hex-empty {
     background: #ADD8E6;
     opacity: .4;
 
@@ -116,6 +116,12 @@
     }
     .hexes {
         width: 650px;
+    }
+}
+
+@media (max-width: 955px) {
+    .hex-disappear {
+        display: none;
     }
 }
 

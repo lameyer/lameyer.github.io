@@ -53,10 +53,10 @@
 .hex-vert:hover {
   opacity: 1; }
 
-.empty {
+.hex-empty {
   background: #ADD8E6;
   opacity: .4; }
-  .empty:hover {
+  .hex-empty:hover {
     opacity: .4; }
 
 .text-shape {
@@ -95,6 +95,9 @@
 
   .hexes {
     width: 650px; } }
+@media (max-width: 955px) {
+  .hex-disappear {
+    display: none; } }
 @media (max-width: 862px) {
   .hex:nth-child(7n-2) {
     margin-left: 10px; }
