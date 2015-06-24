@@ -156,7 +156,6 @@ p {
         line-height: normal;
         margin: 0 20px 0 20px; }
       #skills .skill-list li:hover {
-        cursor: pointer;
         background-color: lightblue; }
         #skills .skill-list li:hover .description {
           display: inline-block;
